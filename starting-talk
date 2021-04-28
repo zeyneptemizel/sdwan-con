@@ -1,0 +1,16 @@
+{\rtf1\ansi\ansicpg1254\deff0\nouicompat\deflang1055{\fonttbl{\f0\fnil\fcharset162 @Yu Gothic;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qj\b\f0\fs36\lang31 Before understanding the SDN i want you guys to understand why do we need it by remark the flaws of the traditional wide area networks and suchh any network actually.\par
+\par
+In traditional networks, in every router there is a control plane which commands the data plane how to behave. this control plane is the software part of the device where the data plane is the hardware part. These two different entities are placed in the same place in a switch, acting as one entity.\par
+\par
+Let's imagine a situation. You have a company with 100 switch and in your current configuration there are 10 lines of code need to be changed. Every line takes 10 seconds to imply and it means 10000 seconds are go\lang1055 ing to\lang31  be wasted just to write these codes. What a waste of everything!\par
+By that and many, people started to thing about "Control plane being on every each device is a problem." and began to create the SDN.\par
+The consept of the SDN is data plane and control plane, which means the software and the hardware part of the device(such as router) is seperated, not united as one.\par
+\par
+The software part is pulled to a central point, so that it can see and manage the whole network, evulate it and decide on it. Data plane (hardware part) is kept in a seperate place.\par
+\par
+Like i said before, when there is something we want to change in the devices it is time, money, energy and prestige consuming to apply that change to them all. With a centered, executive control plane, we are free from the dependency of the hardware and head to the software to  change the whole network just at once. Therewithal,  because of the control plane is in a central location and it can see the whole network it has a command on the neighborhood and routing tables of all switches on the network, the decisionmaking becomes smarter. \par
+At the same time, we are abstracting the infrastructure of the network from the applications. In this way, SDN makes it possible to data planes to be programmable. \par
+\par
+}
