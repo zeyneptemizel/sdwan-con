@@ -1,6 +1,6 @@
 {\rtf1\ansi\ansicpg1254\deff0\nouicompat\deflang1055{\fonttbl{\f0\fnil\fcharset162 @Yu Gothic;}}
 {\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\sa200\sl276\slmult1\qj\b\f0\fs36\lang31 Before understanding the SDN i want you guys to understand why do we need it by remark the flaws of the traditional wide area networks and suchh any network actually.\par
+\pard\sa200\sl276\slmult1\qj\b\f0\fs36\lang31 Before understanding the SDN i want you guys to understand why do we need it by remarking the flaws of the traditional wide area networks and suchh any network actually.\par
 \par
 In traditional networks, in every router there is a control plane which commands the data plane how to behave. this control plane is the software part of the device where the data plane is the hardware part. These two different entities are placed in the same place in a switch, acting as one entity.\par
 \par
